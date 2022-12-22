@@ -62,7 +62,7 @@ def sctrmtrx(df, pairs, m, n):
         m x n Scatter plot figure.
     """
     colormap = {0:'tab:red', 1:'tab:blue', 2:'tab:green', 3:'tab:orange'}
-    fig, ax = plt.subplots(m, n, figsize=(18, 30))
+    fig, ax = plt.subplots(m, n, figsize=(15, 18))
     d = dict(zip([(x, y) for x in range(0,m) for y in range(0,n)], pairs))
     for k, p in d.items():
         ax[k[0]][k[1]].scatter(df[p[0]], df[p[1]], c=df['category'].map(colormap) , s=25, alpha=0.5, edgecolor='k', linewidth=0.5)
