@@ -7,8 +7,8 @@ The purpose of this project is to predict hard disk drive (HDD) failure using op
 * funcs_hrddrv.py includes a few functions for plotting and data visualization.
 * p0_data_acquisition.py is a script to pull the raw HDD data from the Backblaze data center website. 
 * p1_process.py is a script used to process, clean, and format the data prior to modeling. This step also includes the relabeling method used to implement classification of HDD failures.
-* Stage 1 includes code for initial exploratory data analysis.
-* Stage 2 includes code for failure detection via classification modeling: i.e., model optimization, testing, and performance results.
+* Stage_1_Data_Analysis.ipynb includes code for initial exploratory data analysis.
+* Stage_2_Modeling.ipynb includes code for failure detection via classification modeling: i.e., model optimization, testing, and performance results.
 
 #### Dataset
 The dataset used in this study was acquired from the Backblaze data center and consists of real-world operational data from over 100,000 active hard drives; data include the date of failure, serial number, model type, capacity, and daily SMART attribute readings.
