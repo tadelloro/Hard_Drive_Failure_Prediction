@@ -3,6 +3,9 @@
 #### Problem
 The purpose of this project is to predict hard disk drive (HDD) failure using operational machine sensor data from the Backblaze data center. Most modern enterprise class hard drives include a self-monitoring system ― aptly named Self-Monitoring, Analysis and Reporting Technology (SMART) ― that records real-time sensor data that may be used to detect malfunctions and anticipate system failures. The current study focuses on the Seagate model ST12000NM0007 from the Backblaze dataset, as this model is one of the most common HDDs in the dataset.
 
+#### Business Case
+Systems failure prediction is of interest in numerous industries including aerospace, agriculture, energy, manufacturing, and technology. Accurate prediction may allow for better inventory management, maintenance scheduling, and reduction of downtime.
+
 #### Jupyter Notebooks and scripts
 * funcs_hrddrv.py includes a few functions for plotting and data visualization.
 * p0_data_acquisition.py is a script to pull the raw HDD data from the Backblaze data center website. 
@@ -16,8 +19,7 @@ The dataset used in this study was acquired from the Backblaze data center and c
 The dataset may be found here:
 * https://www.backblaze.com/b2/hard-drive-test-data.html
 
-#### Business Case
-Systems failure prediction is of interest in numerous industries including aerospace, agriculture, energy, manufacturing, and technology. Accurate prediction may allow for better inventory management, maintenance scheduling, and reduction of downtime.
+
 
 
 
